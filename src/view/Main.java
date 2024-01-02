@@ -20,7 +20,7 @@ import model.XNode;
 
 
 
-public class PathFinder {
+public class Main {
 
 	@SuppressWarnings("serial")
 	static class CanvasPanel extends JPanel {
@@ -179,7 +179,7 @@ public class PathFinder {
 	}
 
 	public static void main(String[] args) {
-		new PathFinder().demo();
+		new Main().demo();
 	}
 
 }
